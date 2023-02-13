@@ -12,3 +12,16 @@
     color: white;
     padding: 3em;
 }
+
+.mystyle_test{
+   
+    background-color: red;
+}
+
+.mystyle_btn_download{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0.4em 0.8em;
+}
