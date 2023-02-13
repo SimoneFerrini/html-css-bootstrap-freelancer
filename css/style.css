@@ -40,3 +40,11 @@
     color: white;
     
 }
+
+.mystyle_footer_bgcolor{
+    width: 100%;
+    padding: 3em 0;
+
+    background-color:#2C3E50 ;
+    color: white;
+}
