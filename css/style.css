@@ -10,7 +10,7 @@
     width: 100%;
     background-color:#1ABC9C ;
     color: white;
-    padding: 3em;
+    
 }
 
 .mystyle_test{
@@ -24,4 +24,19 @@
     border: 1px solid white;
     border-radius: 10px;
     padding: 0.4em 0.8em;
+}
+
+.mystyle_btn_send{
+    color: white;
+    background-color: #1ABC9C;
+    border-radius: 10px;
+    padding: 0.4em 0.8em;
+    border: none;
+}
+
+.mystyle_blue_section{
+    width: 100%;
+    background-color: #3A546D ;
+    color: white;
+    
 }
