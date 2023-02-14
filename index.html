@@ -102,21 +102,27 @@
 
 
         <!--quarta sezione-->
-        <div class="container d-flex flex-column justify-content-between p-5">
+        <div class="container d-flex flex-column justify-content-between py-5">
             <h2 class="align-self-center mb-4">Titolo</h2>
-            <div class="row row-cols-1 mb-5">
-                <div class="column pt-2 pb-2 border-bottom border-2">testo</div>
-                <div class="column pt-2 pb-2 border-bottom border-2">testo</div>
-                <div class="column pt-2 pb-2 border-bottom border-2">testo</div>
-                <div class="column pt-2 pb-2">testo</div>
+            <div class="px-5">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" placeholder="Name" class="form-control border-0 rounded-0 border-bottom pb-3" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" placeholder="Email" class="form-control border-0 rounded-0 border-bottom pb-3"  aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <input type="tel" placeholder="Phone Number" class="form-control border-0 rounded-0 border-bottom pb-3"  aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control border-0 rounded-0 border-bottom pb-3 mb-3" placeholder="Message" id="floatingTextarea2" style="height:200px"></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
             </div>
-            <div class="border-top border-2 pt-3 pb-3">
-                <button class="mystyle_btn_send">
-                    send
-                </button>
-
-            </div>
-
+            
         </div>
         <!--/quarta sezione-->
 
