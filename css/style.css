@@ -18,6 +18,7 @@
 .my_separator{
     height: 3px;
     width: 100px;
+    max-width: 100px;
 }
 
 .mystyle_test{
@@ -52,3 +53,4 @@
 .form-control::placeholder{
     color: black;
 }
+
