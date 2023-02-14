@@ -15,8 +15,7 @@
 }
 
 .mystyle_test{
-   height: 200px;
-   border: 1px solid black;
+   overflow: hidden;
 }
 
 .mystyle_btn_download{
